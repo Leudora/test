@@ -5,13 +5,13 @@ plugins {
 // JitPack Maven
 apply plugin: 'com.github.dcendents.android-maven'
 // Your Group
-group='com.github.Leudora'
+group = 'com.github.Leudora'
 android {
-    compileSdkVersion 31
+    compileSdkVersion 29
 
     defaultConfig {
         minSdkVersion 21
-        targetSdkVersion 31
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
 
